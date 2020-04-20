@@ -81,7 +81,8 @@ SAT and ACT are two of the most widely acceped standard test used in college in 
 - The cost of SAT test is relatively high comparing to ACT test which might affect the budget focus administrators.<br>
 
 **Recommendation**<br>
-- To target the states which are yet to confirm and review local college admissions provider policies.<br>
+
+- To target the states which are yet to confirm and review local college admissions provider policies. In this case,the state of choice would be Ohio which is the state with high populations and high participation rate in ACT test. We can persuade the local administrators to conduct the SAT instead of ACT. Ohio Department of Education had already commited to fund the SAT test in but most students chose ACT instead of SAT, but there is slight increment in SAT participation which we can say the student are open to try out SAT test..<br>
 - Lower the test cost in order to lighten the lower income family to bear the test cost by introduce waivers or subsidy.<br>
 - Create workshops or seminar to increase the student interest on the test and have them well prepared for the test by showcase them the improvement of SAT test year to year.<br>
 - Increase the interest of student to take part in the test by engaging local department of education to offer discounted price.<br>
