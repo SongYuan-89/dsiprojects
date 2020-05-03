@@ -1,177 +1,95 @@
 # Project 2 - Ames Housing Data and Kaggle Challenge
 
-Welcome to Project 2! It's time to start modeling.
 
-**Primary Learning Objectives:**
-1. Creating and iteratively refining a regression model
-2. Using [Kaggle](https://www.kaggle.com/) to practice the modeling process
-3. Providing business insights through reporting and presentation.
 
-You are tasked with creating a regression model based on the Ames Housing Dataset. This model will predict the price of a house at sale.
+## Problem Statement
 
-The Ames Housing Dataset is an exceptionally detailed and robust dataset with over 70 columns of different features relating to houses.
 
-Secondly, we are hosting a competition on Kaggle to give you the opportunity to practice the following skills:
 
-- Refining models over time
-- Use of train-test split, cross-validation, and data with unknown values for the target to simulate the modeling process
-- The use of Kaggle as a place to practice data science
+Challenge: You are tasked with creating a regression model based on the Ames Housing Dataset. This model will predict the price of a house at sale in Ames, Iowa United States.
 
-As always, you will be submitting a technical report and a presentation. **You may find that the best model for Kaggle is not the best model to address your data science problem.**
 
-## Set-up
 
-Before you begin working on this project, please do the following:
+The class was provided with a training dataset (train.csv) and test dataset (test.csv). The training dataset includes the target variable (sale price). We were assigned the challenge of generating a regression model using the training data, predicting values for the target using the test data, and submitting our predictions to the private Kaggle competition for the class to be scored against the actual target values. The preliminary scores given during the competition are based on only 30% of the test data. At the conclusion of the competition, the final submissions are scored against the remaining 70% of the test data. (This is to discourage overfitting the model to the data used for preliminary scores.)
 
-1. Sign up for an account on [Kaggle](https://www.kaggle.com/)
-2. **IMPORTANT**: Click this link ([Regression Challenge Sign Up](https://www.kaggle.com/t/cf68f4a276f44b59a3c6c843dbf9ed1e)) to **join** the competition (otherwise you will not be able to make submissions!)
-3. Review the material on the [DSI-US-6 Regression Challenge](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge)
-4. Review the [data description](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt).
 
-## The Modeling Process
 
-1. The train dataset has all of the columns that you will need to generate and refine your models. The test dataset has all of those columns except for the target that you are trying to predict in your Regression model.
-2. Generate your regression model using the training data. We expect that within this process, you'll be making use of:
-    - train-test split
-    - cross-validation / grid searching for hyperparameters
-    - strong exploratory data analysis to question correlation and relationship across predictive variables
-    - code that reproducibly and consistently applies feature transformation (such as the preprocessing library)
-3. Predict the values for your target column in the test dataset and submit your predictions to Kaggle to see how your model does against unknown data.
-    - **Note**: Kaggle expects to see your submissions in a specific format. Check the challenge's page to make sure you are formatting your CSVs correctly!
-    - **You are limited to models you've learned in class**. In other words, you cannot use XGBoost, Neural Networks or any other advanced model for this project.
-4. Evaluate your models!
-    - consider your evaluation metrics
-    - consider your baseline score
-    - how can your model be used for inference?
-    - why do you believe your model will generalize to new data?
+## Presentation Prompt
 
-## Submission
 
-**Materials must be submitted by the beginning of class on May 4th.**
 
-Your technical report will be hosted on Github Enterprise. Make sure it includes:
+Presentation Prompt:
 
-- A README.md (that isn't this file)
-- Jupyter notebook(s) with your analysis and models (renamed to describe your project)
-- At least one successful prediction submission on [DSI-US-6 Regression Challenge](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge) --  you should see your name in the "[Leaderboard](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge/leaderboard)" tab.
-- Data files
-- Presentation slides
-- Any other necessary files (images, etc.)
+You've been recently hired at Zillow and your first work assignment is to build a model that will make the best possible prediction of home values in Ames, Iowa (They reserve the more exciting cities for seasoned veterans, this is your opportunity to prove yoursel!). You will be making a presentation to Zillow's semi-technical staff about the process that led you to your final model and predictions.
 
-**Check with your local instructor for how they would like you to submit your repo for review.**
 
----
 
-## Presentation Structure
+Some recommendations of what to include: compelling visuals, significant insights uncovered, noteable obstacles, description of the dataset, the most informative features, interpret coefficients, any features you engineered, any outside data used, description of scaling or regularization if used, any hyperparameter tuning, final model performance.
 
-- **Must be within time limit established by local instructor.**
-- Use Google Slides or some other visual aid (Keynote, Powerpoint, etc).
-- Consider the audience. **Check with your local instructor for direction**.
-- Start with the **data science problem**.
-- Use visuals that are appropriately scaled and interpretable.
-- Talk about your procedure/methodology (high level).
-- Talk about your primary findings.
-- Make sure you provide **clear recommendations** that follow logically from your analyses and narrative and answer your data science problem.
 
-Be sure to rehearse and time your presentation before class.
 
----
+## My Process
 
-## Rubric
-Your local instructor will evaluate your project (for the most part) using the following criteria.  You should make sure that you consider and/or follow most if not all of the considerations/recommendations outlined below **while** working through your project.
 
-**Scores will be out of 27 points based on the 9 items in the rubric.** <br>
-*3 points per section*<br>
 
-| Score | Interpretation |
-| --- | --- |
-| **0** | *Project fails to meet the minimum requirements for this item.* |
-| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
-| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
-| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
+### Data cleaning and EDA
 
-### The Data Science Process
+In the data cleaning stage, I did not remove any features in the beginning to avoid in order to keep the data as complete as possible. However, there were a lot of null values in both data sets which required to be fill up or impute with a value.
 
-**Problem Statement**
-- Is it clear what the student plans to do?
-- What type of model will be developed?
-- How will success be evaluated?
-- Is the scope of the project appropriate?
-- Is it clear who cares about this or why this is important to investigate?
-- Does the student consider the audience and the primary and secondary stakeholders?
+Checking data type: The following columns have numeric values but data is categorical:
 
-**Data Cleaning and EDA**
-- Are missing values imputed appropriately?
-- Are distributions examined and described?
-- Are outliers identified and addressed?
-- Are appropriate summary statistics provided?
-- Are steps taken during data cleaning and EDA framed appropriately?
-- Does the student address whether or not they are likely to be able to answer their problem statement with the provided data given what they've discovered during EDA?
 
-**Preprocessing and Modeling**
-- Are categorical variables one-hot encoded?
-- Does the student investigate or manufacture features with linear relationships to the target?
-- Have the data been scaled appropriately?
-- Does the student properly split and/or sample the data for validation/training purposes?
-- Does the student utilize feature selection to remove noisy or multi-collinear features?
-- Does the student test and evaluate a variety of models to identify a production algorithm (**AT MINIMUM:** linear regression, lasso, and ridge)?
-- Does the student defend their choice of production model relevant to the data at hand and the problem?
-- Does the student explain how the model works and evaluate its performance successes/downfalls?
 
-**Evaluation and Conceptual Understanding**
-- Does the student accurately identify and explain the baseline score?
-- Does the student select and use metrics relevant to the problem objective?
-- Is more than one metric utilized in order to better assess performance?
-- Does the student interpret the results of their model for purposes of inference?
-- Is domain knowledge demonstrated when interpreting results?
-- Does the student provide appropriate interpretation with regards to descriptive and inferential statistics?
+- MS SubClass (Nominal): Identifies the type of dwelling involved in the sale.
+- Mo Sold (Discrete): Month Sold (MM) (unique values 1-12)
+- Yr Sold (Discrete): Year Sold (YYYY) (unique values: 2006, 2007, 2008, 2009, 2010)
 
-**Conclusion and Recommendations**
-- Does the student provide appropriate context to connect individual steps back to the overall project?
-- Is it clear how the final recommendations were reached?
-- Are the conclusions/recommendations clearly stated?
-- Does the conclusion answer the original problem statement?
-- Does the student address how findings of this research can be applied for the benefit of stakeholders?
-- Are future steps to move the project forward identified?
 
-### Organization and Professionalism
 
-**Project Organization**
-- Are modules imported correctly (using appropriate aliases)?
-- Are data imported/saved using relative paths?
-- Does the README provide a good executive summary of the project?
-- Is markdown formatting used appropriately to structure notebooks?
-- Are there an appropriate amount of comments to support the code?
-- Are files & directories organized correctly?
-- Are there unnecessary files included?
-- Do files and directories have well-structured, appropriate, consistent names?
+I converted these columns into strings so they could be used to create dummy columns with the other categorical columns later.
 
-**Visualizations**
-- Are sufficient visualizations provided?
-- Do plots accurately demonstrate valid relationships?
-- Are plots labeled properly?
-- Are plots interpreted appropriately?
-- Are plots formatted and scaled appropriately for inclusion in a notebook-based technical report?
 
-**Python Syntax and Control Flow**
-- Is care taken to write human readable code?
-- Is the code syntactically correct (no runtime errors)?
-- Does the code generate desired results (logically correct)?
-- Does the code follows general best practices and style guidelines?
-- Are Pandas functions used appropriately?
-- Are `sklearn` methods used appropriately?
 
-**Presentation**
-- Is the problem statement clearly presented?
-- Does a strong narrative run through the presentation building toward a final conclusion?
-- Are the conclusions/recommendations clearly stated?
-- Is the level of technicality appropriate for the intended audience?
-- Is the student substantially over or under time?
-- Does the student appropriately pace their presentation?
-- Does the student deliver their message with clarity and volume?
-- Are appropriate visualizations generated for the intended audience?
-- Are visualizations necessary and useful for supporting conclusions/explaining findings?
+Missing values: I checked for null values by column. Columns with a high percentage of null values (higher than 45% null) were removed. Columns removed: 'Pool QC', 'Misc Feature', 'Alley', 'Fence', 'Fireplace Qu'. Remaining null values were assigned to 0 for numeric data and 'na' for strings. This is not the best method of imputing missing values. A future improvement to the project I would like to try would be filling values with the median/most common value for that column.
 
-### REMEMBER:
 
-This is a learning environment and you are encouraged to try new things, even if they end up failing. While this rubric outlines what we look for in a _good_ project, it is up to you to go above and beyond to create a _great_ project. **Learn from your failures and you'll be prepared to succeed in the workforce**.
+
+### Preprocessing and Modeling
+
+
+
+Interaction Terms: 
+
+I had created total bath which include the full bath, half bath, basement full bath and basement half bath to increase the correlation of the feature to the price. Next the basement area, which I summed up basement finish 1 and 2 and unfinished area.
+
+
+
+After that i dropped the related columns to avoid collinearity which will affect the prediction accuracy. 
+
+
+
+The training data was split 95%/5% using scikit-learn train_test_split for cross-validation. Data was scaled using scikit-learn StandardScaler. A future improvement to the project would be to try taking the log of the target variable before fitting the model, as was pointed out in other presentations that the sale price distribution is skewed. (The final predictions would then have to be exponentiated to get the correct values.)
+
+
+
+In the beginning, I tried the fasted and dirty ways to create the model by selecting the top 5 correlated features without any interaction done, the Kaggle score is 28,710.62 with RidgeCV model. However this project required us to go thru the workflow so I tested and evaluated models using linear regression, lasso, and ridge algorithms based on the model features. After adding dummy columns, linear regression began predicting negative values for sale price. Lasso and ridge did not have this problem.
+
+
+
+| Data & Model      | R^2 score | Kaggle score (RMSE) |
+| ----------------- | --------- | ------------------- |
+| LassoCV           | 0.8595    | 38267.2218          |
+| Linear Regression | -1.6189   | -                   |
+| RidgeCV           | 0.8332    | -                   |
+
+
+
+## Conclusion
+
+The overall quality is the feature that most correlated to sale price which we can suggest that it is add the most value to a house, other than quality the correlations plot suggest that the ground living area is the feature that be add value to a house.
+
+In order to get the house value added, it is suggested that the house owner do remodeling or renovation to renew the outlook of the house, and do periodical maintenance for each feature to make sure the features are in good condition which will be a plus point for the buyer.
+
+Seems Bluestem and Bloomington neighborhood made a good investment which having low sales but the housing price is high comparing to other neighborhood..
+
+There is space of improvement, the data cleaning can be done will filling with median or most common value. RFE will be a model which is good to help us narrow down the features with high correlation and hence, increase the accuracy of prediction prices.
