@@ -78,7 +78,7 @@ In the beginning, I tried the fasted and dirty ways to create the model by selec
 
 | Data & Model      | R^2 score | Kaggle score (RMSE) |
 | ----------------- | --------- | ------------------- |
-| LassoCV           | 0.8595    | 38267.2218          |
+| LassoCV           | 0.8595    | 38915.66            |
 | Linear Regression | -1.6189   | -                   |
 | RidgeCV           | 0.8332    | -                   |
 
