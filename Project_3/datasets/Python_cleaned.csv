@@ -7,13 +7,12 @@ Please include as much information as possible.
 
 If you are looking for jobs, send a PM to the poster.",Python,rpython job   for may june july top level comments must be job opportunities  please   location or any other requirements in your comment if you require people to work on site in san francisco you must note that in your post if you require an engineering   you must note that in your post  please   as much information as possible  if you are looking for jobs   a pm to the poster
 t3_gibxv4,What's everyone working on this week?,"Tell /r/python what you're working on this week! You can be bragging, grousing, sharing your passion, or explaining your pain. Talk about your current project or your pet project; whatever you want to share.",Python,whats everyone working on this week tell rpython what youre working on this week you can be bragging grousing sharing your passion or explaining your pain talk about your current project or your pet project whatever you want to share
-t3_gl7lp7,"Created a python script that execute Exploratory Data Analysis on any CSV file. It generates a text report, a series of plots and a processed csv file as outputs.",,Python,  a python script that execute exploratory   analysis on any csv file it generates a text report a series of plots   a   csv file as outputs 
 t3_glikj1,"I made an Android app that detects and recognises traffic signs, using Kivy and OpenCV, to help combat traffic casualties worldwide",,Python,i   an   app that     recognises traffic signs using kivy   opencv to help combat traffic casualties   
+t3_gl7lp7,"Created a python script that execute Exploratory Data Analysis on any CSV file. It generates a text report, a series of plots and a processed csv file as outputs.",,Python,  a python script that execute exploratory   analysis on any csv file it generates a text report a series of plots   a   csv file as outputs 
 t3_glikya,Anyone else learning python during the quarantine?,"I have been watching the lectures from a computer science 101 course offered for free through MIT, which offers a great introduction to programming and python. I am curious who else is learning to program during the quarantine, and what resources they are using. Also, does anyone have any project ideas for beginners?",Python,anyone else learning python   the quarantine i have been watching the lectures from a computer science     course   for free through mit which offers a great   to programming   python i am curious who else is learning to program   the quarantine   what resources they are using also   anyone have any project   for beginners
 t3_glj128,I made a python script to get reviews about a movie or a TV series in various aspects. This script uses the Common Sense Media website to get all the reviews. (This could be help full when you are selecting movies to watch with your family),,Python,i   a python script to get reviews about a movie or a tv series in various aspects this script uses the common sense   website to get all the reviews this   be help full when you are selecting movies to watch with your family 
 t3_glgl86,"Build &amp; Deploy A Python Web App To Automate Twitter | Flask, Heroku, Twitter API &amp; Google Sheets API",,Python,     a python web app to automate twitter  flask heroku twitter api  google sheets api 
 t3_glkc76,I made a script to pull images from Reddit as a wallpaper collection,,Python,i   a script to pull images from   as a wallpaper collection 
-t3_glb2zc,I made a tool that allows you to search through code snippets using natural language - including ~1.1M Python code snippets,,Python,i   a tool that allows you to search through   snippets using natural language      m python   snippets 
 t3_glkcvv,GUI's in Python: best choices?,"Hi guys,
 
 I have been considering developing this desktop application with a GUI in Python. Now, the primary reason why I prefer a desktop app instead of a web app, is to avoid any issues with data privacy as the supposed software needs to process sensitive data. I see that there are quite some GUI libraries out there, but some of them look quite ancient such as TKinter, or are very expensive for commercial use like PyQT or Sciter.
@@ -21,9 +20,149 @@ I have been considering developing this desktop application with a GUI in Python
 What are, according to you guys, the best practices for creating modern-looking desktop applications? Is it even a good idea? Ideally, I'm looking for a methodology that allows for modern-looking apps that Electron JS is known for. I've also looked at integrating python and Electron JS but this seems quite hacky (e.g.  [https://www.fyears.org/2017/02/electron-as-gui-of-python-apps-updated.html](https://www.fyears.org/2017/02/electron-as-gui-of-python-apps-updated.html)). 
 
 I'd love to read your guys' insight.",Python,guis in python best choices hi guys  i have been     this   application with a gui in python now the primary reason why i prefer a   app   of a web app is to   any issues with   privacy as the   software   to process sensitive   i see that there are quite some gui libraries out there but some of them look quite ancient such as tkinter or are very expensive for commercial use like pyqt or sciter  what are   to you guys the best practices for creating     applications is it even a       im looking for a   that allows for   apps that electron js is known for ive also   at integrating python   electron js but this seems quite hacky eg       love to   your guys insight
+t3_glb2zc,I made a tool that allows you to search through code snippets using natural language - including ~1.1M Python code snippets,,Python,i   a tool that allows you to search through   snippets using natural language      m python   snippets 
+t3_gln4cx,I made a La Croix Flavor Detector. I provide some (hopefully) straightforward steps to integrate object detection into your own projects using Teachable Machine. Let me know what you make with it!,,Python,i   a la croix flavor   i   some hopefully   steps to integrate object   into your own projects using teachable machine let me know what you make with it 
+t3_gllawk,I made an audio spectrum visualizer in python using Librosa and PyGame! (Code in the comments),,Python,i   an   spectrum visualizer in python using librosa   pygame   in the comments 
+t3_glm9ij,"I created a neural network ""library"" in numpy as an exercise. Figured I'd share, in case anyone would like to have a look at neural nets under the hood!"," Hello all!
+
+Over the past two weeks I have been implementing a neural network implementation from scratch in python, to learn more about the mathematical details of backpropagation and optimization of neural networks in general. I would be happy to get some feedback of possible improvements, but also wanted to share the project as I figured someone else might be curious to have a look at it as an educational resource :)
+
+I have also created two Google Colab notebooks which uses the implementation to classify the MNIST dataset, one using a dense network and the other using a convolutional net. Could be fun for people who haven't worked with neural nets before to play around with those!
+
+All code and links to the Colab notebooks can be found at: [https://github.com/jonasberg/NeuralNetwork](https://github.com/jonasberg/NeuralNetwork)
+
+Stay safe everyone!",Python,i   a neural network library in numpy as an exercise     share in case anyone   like to have a look at neural nets   the    hello all  over the past two weeks i have been implementing a neural network implementation from scratch in python to learn more about the mathematical   of backpropagation   optimization of neural networks in general i   be happy to get some   of possible improvements but also   to share the project as i   someone else might be curious to have a look at it as an   resource   i have also   two google colab notebooks which uses the implementation to classify the mnist   one using a   network   the other using a convolutional net   be fun for people who havent   with neural nets before to play   with those  all     links to the colab notebooks can be   at   stay safe everyone
 t3_gkyt8i,I just recreated the speech generation from Animal Crossing in only 64 lines of code,,Python,i just   the speech generation from animal crossing in only    lines of   
+t3_gllrdu,What is better than PyGame for developing more complex 2d games in Python? Would something like the Unreal engine be overkill?,,Python,what is better than pygame for   more complex   games in python   something like the unreal engine be overkill 
 t3_gkxga5,I made a fractal tree visualizer!,,Python,i   a fractal tree visualizer 
 t3_gldibe,Automating stuffs with python!!,,Python,automating stuffs with python 
+t3_glmqkk,Need help,"I cant seem to import from PIL, or library or pull image up. used repl.it, pycharm, and windows bs (haha)..any help appriciated, i have more as well
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+Define and test a function named posterize. This function expects an image and a tuple of RGB values as arguments. The function modifies the image like the blackAndWhite function, but it uses the given RGB values instead of black.
+
+&amp;#x200B;
+
+my code..
+
+    import os
+    from PIL import Image
+    from library import image
+    import validInt
+    
+    def blackAndWhite(rgbTuple, image):
+        """""" Converts the image to black and white from given RGB value. """"""
+        whitePixel = (255, 255, 255)
+        for y in range(image.height):
+            for x in range(image.width):
+                (r, g, b) = image.getpixel((x, y))
+                average = (r + g + b)/3
+                if average &lt; 128:
+                    image.putpixel((x, y), rgbTuple)
+                else:
+                    image.putpixel((x, y), whitePixel)
+    
+    def main():
+        """""" Main Method. """"""
+        print(""\n"" * 10)
+        print(""Posterize given image from given RGB value to black and white"", end=""\n\n"");
+        input(""Press ENTER to start execution ... \n"");
+    
+        fileName = input(""Enter valid image file path (RELATIVE ONLY and NOT ABSOLUTE): "")
+        while not validImageFile(os.getcwd() + os.sep + fileName):
+            fileName = input(""Enter valid image file path (RELATIVE ONLY and NOT ABSOLUTE): "")
+    
+        red = input(""Enter value of RED[0-255] in RGB: "")
+        while not validInt(red):
+            red = input(""Enter value of RED[0-255] in RGB: "")
+    
+        green = input(""Enter value of GREEN[0-255] in RGB: "")
+        while not validInt(green):
+            green = input(""Enter value of GREEN[0-255] in RGB: "")
+    
+        blue = input(""Enter value of BLUE[0-255] in RGB: "")
+        while not validInt(blue):
+            blue = input(""Enter value of BLUE[0-255] in RGB: "")
+    
+        rgbTuple = (int(red), int(green), int(blue))
+    
+        image = Image.open(fileName)
+        print(""Close the image window to continue."")
+        image.show()
+    
+        blackAndWhite(rgbTuple, image)
+        print(""Close the image window to quit."")
+        image.show()
+    
+    """"""
+        Starting point
+    """"""
+    main()
+    from PIL import Image
+    from library import image
+    import validInt
+    
+    def blackAndWhite(rgbTuple, image):
+        """""" Converts the image to black and white from given RGB value. """"""
+        whitePixel = (255, 255, 255)
+        for y in range(image.height):
+            for x in range(image.width):
+                (r, g, b) = image.getpixel((x, y))
+                average = (r + g + b)/3
+                if average &lt; 128:
+                    image.putpixel((x, y), rgbTuple)
+                else:
+                    image.putpixel((x, y), whitePixel)
+    
+    def main():
+        """""" Main Method. """"""
+        print(""\n"" * 10)
+        print(""Posterize given image from given RGB value to black and white"", end=""\n\n"");
+        input(""Press ENTER to start execution ... \n"");
+    
+        fileName = input(""Enter valid image file path (RELATIVE ONLY and NOT ABSOLUTE): "")
+        while not validImageFile(os.getcwd() + os.sep + fileName):
+            fileName = input(""Enter valid image file path (RELATIVE ONLY and NOT ABSOLUTE): "")
+    
+        red = input(""Enter value of RED[0-255] in RGB: "")
+        while not validInt(red):
+            red = input(""Enter value of RED[0-255] in RGB: "")
+    
+        green = input(""Enter value of GREEN[0-255] in RGB: "")
+        while not validInt(green):
+            green = input(""Enter value of GREEN[0-255] in RGB: "")
+    
+        blue = input(""Enter value of BLUE[0-255] in RGB: "")
+        while not validInt(blue):
+            blue = input(""Enter value of BLUE[0-255] in RGB: "")
+    
+        rgbTuple = (int(red), int(green), int(blue))
+    
+        image = Image.open(fileName)
+        print(""Close the image window to continue."")
+        image.show()
+    
+        blackAndWhite(rgbTuple, image)
+        print(""Close the image window to quit."")
+        image.show()
+    
+    """"""
+        Starting point
+    """"""
+    main()
+
+&amp;#x200B;",Python,  help i cant seem to import from pil or library or pull image up   replit pycharm     bs hahaany help   i have more as well  x   b  x   b      test a function   posterize this function expects an image   a tuple of rgb values as arguments the function   the image like the   function but it uses the given rgb values   of black  x   b  my        import os     from pil import image     from library import image     import                image          converts the image to black   white from given rgb value          whitepixel                      for y in rangeimageheight             for x in                   r g b  imagegetpixelx y                 average  r  g  b                  if average                          imageputpixelx y rgbtuple                 else                     imageputpixelx y whitepixel            main          main            printn             printposterize given image from given rgb value to black   white           inputpress enter to start execution  n              filename  inputenter   image file path relative only   not absolute          while not    ossep  filename             filename  inputenter   image file path relative only   not absolute                  inputenter value of    in rgb          while not                  inputenter value of    in rgb               green  inputenter value of green  in rgb          while not               green  inputenter value of green  in rgb               blue  inputenter value of blue  in rgb          while not               blue  inputenter value of blue  in rgb               rgbtuple    intgreen intblue              image  imageopenfilename         printclose the image   to continue         imageshow                image         printclose the image   to quit         imageshow                   starting point          main     from pil import image     from library import image     import                image          converts the image to black   white from given rgb value          whitepixel                      for y in rangeimageheight             for x in                   r g b  imagegetpixelx y                 average  r  g  b                  if average                          imageputpixelx y rgbtuple                 else                     imageputpixelx y whitepixel            main          main            printn             printposterize given image from given rgb value to black   white           inputpress enter to start execution  n              filename  inputenter   image file path relative only   not absolute          while not    ossep  filename             filename  inputenter   image file path relative only   not absolute                  inputenter value of    in rgb          while not                  inputenter value of    in rgb               green  inputenter value of green  in rgb          while not               green  inputenter value of green  in rgb               blue  inputenter value of blue  in rgb          while not               blue  inputenter value of blue  in rgb               rgbtuple    intgreen intblue              image  imageopenfilename         printclose the image   to continue         imageshow                image         printclose the image   to quit         imageshow                   starting point          main  x   b
+t3_gli9wk,Do people fight in Python github pages??,"Hi I'm a new convert coming from R -- I love so many things about Python already (sklearn is awesome). But one thing that's thrown me is that some maintainers/contributers are kinda mean or dramatic in responding to user requests for new features or fixes. For example, check out this saga about an issue with Spyder's autocomplete:   
+
+[https://github.com/spyder-ide/spyder/issues/12572](https://github.com/spyder-ide/spyder/issues/12572) 
+
+I've just never seen people actively fighting on a github issue thread before or responding angrily to a user request. I even saw something similar in seaborn. Does anyone know what I mean? Is this normal in the Python world??
+
+Edit: did not know the difference between maintainer and contributor.",Python,  people fight in python github pages hi im a new convert coming from r  i love so many things about python   sklearn is awesome but one thing thats thrown me is that some maintainerscontributers are   mean or   in   to user requests for new features or fixes for example check out this saga about an issue with   autocomplete        ive just never seen people actively fighting on a github issue   before or   angrily to a user request i even saw something similar in seaborn   anyone know what i mean is this normal in the python        not know the   between maintainer   contributor
+t3_glg14x,"Open source social network I'm currently developing, powered by Python. A little bit different from the stuff usually posted here :)",,Python,open source social network im currently     by python a little bit   from the stuff usually   here  
 t3_gli7pd,Universal hash function for strings,"Is there a universal hash function for strings in python?
 Universal in the sense that same string will get the same hash code no matter what operating system I use or in which time",Python,universal hash function for strings is there a universal hash function for strings in python universal in the sense that same string will get the same hash   no matter what operating system i use or in which time
 t3_glg80r,"I've shared some Financial Programming Python scripts on Github which I'll eventually use for some Visualisations. I started working on this in 2018, and was waylaid with other projects",,Python,ive   some financial programming python scripts on github which ill eventually use for some visualisations i   working on this in        was   with other projects 
@@ -33,7 +172,6 @@ t3_glk31w,"[Help] deserialization, bytes from a binay file, pickle.loads()","&gt
 
 someone explain why payloads contains variable length of items in list of 250. , instead of only first 0-250 bytes??",Python,    bytes from a binay file   with   rb as f               someone explain why   contains variable length of items in list of        of only first      bytes
 t3_glk2tu,Casual Programming With Python &amp; Music : Find Quadratic Equation Using cmath,,Python,casual programming with python  music      equation using cmath 
-t3_glg14x,"Open source social network I'm currently developing, powered by Python. A little bit different from the stuff usually posted here :)",,Python,open source social network im currently     by python a little bit   from the stuff usually   here  
 t3_gla9f3,I wrote a pair of modules: matroska and ebml,"Last year, I discovered [PyAV](https://github.com/PyAV-Org/PyAV), and found it to be useful to process media. However, as PyAV is python bindings for ffmpeg, and I am not terribly pleased with ffmpeg’s lack of support for certain Matroska features, I decided to get my hands dirty in the last month and decided to write my own Matroska muxer/demuxer, and as the Matroska format is based on EBML, I decided to write an EBML module to go along with it.
 
 The matroska module supports all elements listed in [the specifications published at Matroska.org](https://www.matroska.org/technical/specs/index.html). Beyond simply exposing the entire DOM, here are some features I have implemented:
@@ -59,13 +197,6 @@ I should note that matroska currently requires the regex module, and ebml refere
 t3_glj0vf,Help needed for installing interpreter,"Hello guys, I'm new to python and I have trouble adding an interpreter in pycharm. When I select python 3.7 in the system interpreter and press ok, the download bar would appear. However, the download bar closes itself and disappears with the message 'Windows may require your approval to install Python. Please check the taskbar.' Nothing appears on my task bar and the message goes away. What do I do?",Python,help   for installing interpreter hello guys im new to python   i have trouble   an interpreter in pycharm when i select python    in the system interpreter   press ok the   bar   appear however the   bar closes itself     with the message   may require your approval to install python please check the taskbar nothing appears on my task bar   the message goes away what   i  
 t3_glb6fk,"Toggle code ""&gt;&gt;&gt;"" prompts in Sphinx - just like the official Python docs",,Python,toggle    prompts in sphinx  just like the official python   
 t3_gl8bq0,Do you use walrus operator := in your projects?,"This feature added in version 3.8, but since then I hadn't any situation where I could use it. For example, after they released f'{variable}' formatting, I started to use this feature wherever I could. So, what's up with walrus operator?",Python,  you use walrus operator  in your projects this feature   in version    but since then i   any situation where i   use it for example after they   fvariable formatting i   to use this feature wherever i   so whats up with walrus operator
-t3_gli9wk,Do people fight in Python github pages??,"Hi I'm a new convert coming from R -- I love so many things about Python already (sklearn is awesome). But one thing that's thrown me is that some maintainers/contributers are kinda mean or dramatic in responding to user requests for new features or fixes. For example, check out this saga about an issue with Spyder's autocomplete:   
-
-[https://github.com/spyder-ide/spyder/issues/12572](https://github.com/spyder-ide/spyder/issues/12572) 
-
-I've just never seen people actively fighting on a github issue thread before or responding angrily to a user request. I even saw something similar in seaborn. Does anyone know what I mean? Is this normal in the Python world??
-
-Edit: did not know the difference between maintainer and contributor.",Python,  people fight in python github pages hi im a new convert coming from r  i love so many things about python   sklearn is awesome but one thing thats thrown me is that some maintainerscontributers are   mean or   in   to user requests for new features or fixes for example check out this saga about an issue with   autocomplete        ive just never seen people actively fighting on a github issue   before or   angrily to a user request i even saw something similar in seaborn   anyone know what i mean is this normal in the python        not know the   between maintainer   contributor
 t3_glemi1,"Dealing With Django Admin Pages, Models, Migrations &amp; Django ORM",,Python,  with     pages   migrations    orm 
 t3_glhj3s,MetaCharacter Inside Character set | Regex Tutorial Part-9,,Python,metacharacter   character set  regex tutorial part  
 t3_glgo4s,How do I properly loopback/dsnoop?,"I am trying to record a loopback signal, ie audio playing by 
@@ -81,9 +212,6 @@ yet even though I hear `test.wav` from my speakers `foobar.wav` is an empty line
 How do I properly loopback/dsnoop?",Python,how   i properly   i am trying to   a loopback signal ie   playing by   aplay testwav    with     f     foobarwav  yet even though i hear testwav from my speakers foobarwav is an empty line of silence   i get regular beeps   noise in between everything but testwav  how   i properly  
 t3_glfxsx,Who creates and maintains the important python modules?,I have been using python for some time and I have always wondered about this. I know that anyone can create and distribute a module. The thing is that there are super important and amazing modules like numpy or matplotlib that I am sure require a lot of work. Who is in charge of them and why they develop them? Do they receive some kind of compensation?,Python,who creates   maintains the important python   i have been using python for some time   i have always   about this i know that anyone can create     a   the thing is that there are super important   amazing   like numpy or matplotlib that i am sure require a lot of work who is in charge of them   why they   them   they receive some   of compensation
 t3_gkhjzt,"This morning I decided to learn how to code in Python and after watching a YouTube course on the basics of the language, I coded this all by myself. It took me like 4 or 5 hours. I feel ashamed and super proud at the same time.",,Python,this morning i   to learn how to   in python   after watching a youtube course on the basics of the language i   this all by myself it took me like   or   hours i feel     super   at the same time 
-t3_glfhcl,Using APIs,"&amp;#x200B;
-
-[anyone know how to make a variable from \\""followerCount\\"" and \\""followCount\\""? I'm not very confident with using APIs](https://preview.redd.it/f3vg63i7vbz41.png?width=1366&amp;format=png&amp;auto=webp&amp;s=13af8c92bf2b7fca746889f6cb00006df23aa516)",Python,using apis x   b   
 t3_glffou,"Producing dynamic reports with graphs, text and tables","Hi, what is the best way to produce nice looking dynamic reports with tables, graphs and text. Until now i was using Sweave in R, but i would be happy to hear from others, what are the cool packages in R or Python or whatever. Just, please, no Word....",Python,    reports with graphs text   tables hi what is the best way to   nice looking   reports with tables graphs   text until now i was using sweave in r but i   be happy to hear from others what are the cool packages in r or python or whatever just please no  
 t3_glfbvo,i dont know where to start .,"i want to learn programming mainly on python , but the tutorials are etiher too easy or too hard , im trying to learn by solving problems on websites but the easiest is too overwhelmingly hard , i mean i have a grip on the absolute basics but other than that i dont know anything , im really confused where to start learning , its like there is an infinte amount of functions that everyone knows exept me ;'(  , any tips will be greatly appreaciated",Python,i   know where to start  i want to learn programming mainly on python  but the tutorials are etiher too easy or too    im trying to learn by solving problems on websites but the easiest is too overwhelmingly    i mean i have a grip on the absolute basics but other than that i   know anything  im really   where to start learning  its like there is an infinte amount of functions that everyone knows exept me    any tips will be greatly  
 t3_glf0gb,Python Mobile App and Game Development with Kivy | 22 Videos ~ 2.5 hours,,Python,python mobile app   game   with kivy           hours 
@@ -132,6 +260,9 @@ t3_gldh1v,"Ousret/kiss-headers - Python package for object oriented headers, HTT
 t3_gl5fva,Rock/Paper/Scissor factories at war! (pygame),,Python,rockpaperscissor factories at war pygame 
 t3_gkvdd5,I started learning python about a week ago and I finally finished my project of making a user login system using pyqt5.,,Python,i   learning python about a week ago   i finally   my project of making a user login system using pyqt  
 t3_gld25d,Retrive content from a file in github with Python,,Python,retrive content from a file in github with python 
+t3_glfhcl,Using APIs,"&amp;#x200B;
+
+[anyone know how to make a variable from \\""followerCount\\"" and \\""followCount\\""? I'm not very confident with using APIs](https://preview.redd.it/f3vg63i7vbz41.png?width=1366&amp;format=png&amp;auto=webp&amp;s=13af8c92bf2b7fca746889f6cb00006df23aa516)",Python,using apis x   b   
 t3_gkumgw,An accurate clone of space invaders in pygame,,Python,an accurate clone of space   in pygame 
 t3_gl78qq,Easily Accept Payments with Django and Stripe,,Python,easily accept payments with     stripe 
 t3_glcjm5,tkinter - entry widget question,"I am learning how to use tkinter and I am struggling to control the layout/location of my entry widgets.
@@ -647,6 +778,7 @@ Here's the code:
 			print('\nOnly include integers in the input')
 		if not ('(' in original or ')' in original or '.' in original):
 			print('\nInvalid input')",Python,i   a calculator that takes a polynomial input   outputs its      hello i thought i   share the project i   for my ap computer science principles class its a calculator that takes the   of an input i have some other experience with java but this is my   time using python   i must say i absolutely love it the input is completely     allows the user to input any polynomial expression with any integer coefficient or power           since the program only takes polynomial expressions as inputs it only uses the power rule but this project was more about learning about string manipulation than anything else  i   a rule for myself that i   not look up anything while working on the project     completely   it on my own for this reason i expect that it is quite     i might have   some unconventional stuff so i   really appreciate some   on how i can improve obviously with something like this formatting   parsing the input was    of it while the actual   was nothing  heres the    	 	 polynomial   calculator                              	 ap computer science principles							    	 create pt													    	  	 function that takes an input   of a polynomial term   outputs the term   the sign 	    		return    p  p      	 function that takes input     outputs a polynomial term   sign ie     x  	  termunparsep 		if p      my program   throw away all terms with a coefficient of   			printthis   never happen lolformaterr 		elif p     			if p     				return   			elif p     				return x 			else 				return x  strp  		elif p     			if p     				return   			elif p     				return x 			else 				return x  strp  		elif p       p     			if p     				return   strp  			elif p     				return   strp   x 			else 				return   strp   x  strp  		else 			if p     				return strp  			elif p     				return strp   x 			else 				return strp   x  strp   	a  inputenter a polynomial expression in terms of x to     	original  a  	terms     stores each term as a string 	      stores the coefficient   power of each term in an array 	      stores the coefficient   power of each term after it is    	finalexpression    the final   expression  	 if an   input is   the program will eventually throw an error so i put everything in a tryexcept loop i know loop isnt the right   but i   know what else to call it 	try 		 reformats expression by removing spaces   then   them back between terms    operators except any  which is temporarily   into an     then back 		a  areplace replacereplace  replace  replace  		removes any   x  terms 		a  areplacex   		 removes first space if one is there which   happen when turning  x  into    x  		if a     			a  a  		printnyour expression is   a  		   a plus sign to the beginning of the expression if the   term is positive     a space to the   of the expression   for following manipulation 		if a    			a     a    		else 			a  a     		 changes x to  x to  x  etc 		 the program turns x  into x   but if the expression   in x without a space this will not happen that is why i   to   a space earlier to the   of the expression 		a  areplace x   xreplacex  x  replace  replace    		 removes the   space as its no longer   		a  a   		 isolates terms   splits them up into an array of each   term 		try 			    capture the string up to the first space that is one term  			i      store the location of the first space  			 goes through expression   isolates every term between spaces 			while true 				try 					    isolates the characters between the last space   the next space   stores it as the next term 					i    i   sets the location of the new space as new startfrom location 				except 					    once there are no more spaces isolate the rest of the string   set it as the final term 					break 		except 			 	 if there are no spaces at all in the expression then the entire expression is one term  		 parse out coefficient   power of each term   store to   except x  terms as they will be thrown away when   		for i in rangelenterms 			if x in terms  				 grabs all the characters to the left of x   stores them as the coefficient all the characters to the right are the power 				     intterms     		   each set of coefficient   term   remove any  x terms 		for i in   			if        				    		the rest converts from   to usual form ie     x  		try 			 first unparse every term     all to one long string 			for i in   				finalexpression  termunparsei  			 next we   to remove the    if there is one     spaces into the expression to make it more   			if finalexpression    				finalexpression  finalexpression  				finalexpression  finalexpressionreplacereplace  replace  replace 			elif finalexpression    				finalexpression  finalexpressionreplacereplace  replace  replace 				if theres a   negative the expression will look like    x   of  x so we   to fix that 				finalexpression    finalexpression  			else 				if all terms are gone by now then obviously the final expression is   				if      					finalexpression    				else 					printthis   never happen lolformaterr 		except 			finalexpression     		printnthe   of your expression is   finalexpression  	except 		if  in original or  in original 			  not   parentheses in the input 		if  in original 			printnonly   integers in the input 		if not  in original or  in original or  in original 			  input
+t3_gl30a8,Create gitignore files from command line with auto-completion for all available templates.,,Python,create gitignore files from   line with autocompletion for all available templates 
 t3_gl9nkf,"PyCasbin: An authorization library that supports access control models like ACL, RBAC, ABAC in Python",,Python,pycasbin an authorization library that supports access control   like acl rbac abac in python 
 t3_gl93xx,How do I get the most out of my online Python class?,"This class is called ""Introduction to Programming in Python – C859"" and I'm taking it 1/2 way thru my B.S. in I.T. Data Analytics / Data Management.
 
@@ -668,7 +800,6 @@ Is there anything else you need to know?
 
 Thank you in advance.",Python,how   i get the most out of my online python class this class is     to programming in python – c      im taking it    way thru my bs in it   analytics    management  i have little programming experience some scripting experience with vbscript   imacros in firefox some web   experience using     the class is all online   of their browser book of sorts with some   of chapter quizzes that have you type   but no actual     i have   pycharm so i can start getting   to it   it seems great the course   require it you can   everything in their software  ive   saving the   in their own py files when its something i want to remember     i be learning emacs im aware of the emacs vs vim   but their was only an install option with emacs   i bother learning one of them over the pycharm interface  any youtubers you think i   watch  is there anything else you   to know    thank you in  
 t3_gl8qx1,"Why numbers in binary representation has the prefix ""0b"" or ""0B""?",It's just a doubt of why that's the format. Is there an historical reason or something like that?,Python,why numbers in binary representation has the prefix  b or  b its just a   of why thats the format is there an historical reason or something like that
-t3_gl30a8,Create gitignore files from command line with auto-completion for all available templates.,,Python,create gitignore files from   line with autocompletion for all available templates 
 t3_gl51y7,Yum but written with Python 3?,"I'd like to download RPMs using Python's \`yum\` module but I need to do it using Python 3. On my build of CentOS 7.7, yum is only written for Python 2. Is there a python module for yum written for Python 3?
 
 Ideally I'd like to interact with Yum's database like described in this page: [https://illiterat.livejournal.com/6254.html](https://illiterat.livejournal.com/6254.html)",Python,yum but written with python     like to   rpms using pythons yum   but i   to   it using python   on my   of centos    yum is only written for python   is there a python   for yum written for python        like to interact with yums   like   in this page 
@@ -911,6 +1042,7 @@ t3_gl1eya,Automatic bridging from C++ to Python,"I've created a project for auto
 t3_gl4do1,Has anyone programmed anything useful or creative w pyautogui,,Python,has anyone   anything useful or creative w pyautogui 
 t3_gl3fqu,I keep encountering this elif error in this small thingy I'm making to help me learn python. What can I do to fix it?, Here is link: [https://pastebin.com/UwrvZvF1](https://pastebin.com/UwrvZvF1),Python,i keep encountering this elif error in this small thingy im making to help me learn python what can i   to fix it  here is link 
 t3_glarhb,Can you explain to me what exactly the problem?,,Python,can you explain to me what exactly the problem 
+t3_gkz7i2,Regex Tutorial Character Set &amp; Range,,Python,regex tutorial character set  range 
 t3_gkwhqd,Version numbers: how to use them in your library?,,Python,version numbers how to use them in your library 
 t3_gl2nhn,[help] Flask-restful how do i get additional data that is not defined in the model from post,"    class model(db.model):
         foo = 2
@@ -1002,7 +1134,6 @@ What I'm asking is if any of you had to routinely deal with such thing and any t
 At my current company, we have a bunch of inner libraries and this is starting to happen a little too often.
 
 Note that this dependency mismatch is within the same application, the typical ""make a venv for each application"" doesn't apply here (we already do that.)",Python,internal libraries     hell take the following typical   hell example     a pip install on applications requirementstxt   fail i get library x   with either v    or v    breaking either library a or library b when running the application  what im asking is if any of you   to routinely   with such thing   any tips to relieve this pain   has been helping to   such cases btw  at my current company we have a bunch of inner libraries   this is starting to happen a little too often  note that this   mismatch is within the same application the typical make a venv for each application   apply here we     that
-t3_gkz7i2,Regex Tutorial Character Set &amp; Range,,Python,regex tutorial character set  range 
 t3_gkofb5,What operating system do you prefer for coding and why?,"And since, windows 10 now has WSL 2, why would you choose linux over windows 10?
 
 [View Poll](https://www.reddit.com/poll/gkofb5)",Python,what operating system   you prefer for     why   since      now has wsl   why   you choose linux over        
@@ -1519,9 +1650,6 @@ t3_gk0m6g,Is it better to use Python w/ Excel or with Google Sheets? What are th
 t3_gjwmom,Pythonista on the iPad with bluetooth devices (Sphero),"With Apple being quite closed with their hardware, is it possible to connect and control bluetooth devices using a Python Script on the iPad Pro. 
 
 I'm looking to control a Sphero and potentially some other low level devices that are bluetooth based.",Python,pythonista on the   with bluetooth   sphero with apple being quite   with their   is it possible to connect   control bluetooth   using a python script on the   pro   im looking to control a sphero   potentially some other low level   that are bluetooth  
-t3_gk01er,How to make environment variables with virtualenv?,I am making a Django application and am wanting to to make a virtual environment but it’s not working at all when I do os.environ.get(‘api_key’). I read I need to make environment variables specific to the virtual environment. I could only find examples for pipenv and tried making a .env file in my root project folder but couldn’t get it to work. Any suggestions?,Python,how to make environment variables with virtualenv i am making a   application   am wanting to to make a virtual environment but it’s not working at all when i   osenvironget‘apikey’ i   i   to make environment variables specific to the virtual environment i   only   examples for pipenv     making a env file in my root project   but  ’t get it to work any suggestions
-t3_gjvtyd,pyenv fails to switch between python versions on Mac OS · Issue #1446 · pyenv/pyenv · GitHub: for new Catalina and upgrades from Mojave. This appears to solve it.,,Python,pyenv fails to switch between python versions on mac os · issue      · pyenvpyenv · github for new catalina     from mojave this appears to solve it 
-t3_gjznhq,"As someone new to Python I can't see ELIF without reading it as ""Explain Like I'm Five""",I can't seem to shake it.  Am I the only one?,Python,as someone new to python i cant see elif without   it as explain like im five i cant seem to shake it  am i the only one
 t3_gjqqnb,View and modify Fourier (frequency) domain of any image with a Qt QML GUI," 
 
 https://i.redd.it/4qm2d4iglry41.gif
@@ -1531,6 +1659,9 @@ I've learned Python, pyqt / Qt QML and GitHub with this project aimed at radiogr
 Suggestions and code contributions are welcome.
 
 [https://github.com/birogeri/kspace-explorer](https://github.com/birogeri/kspace-explorer)",Python,view     fourier frequency   of any image with a qt qml gui      ive   python pyqt  qt qml   github with this project   at     to help them   a topic of mri physics  suggestions     contributions are welcome  
+t3_gk01er,How to make environment variables with virtualenv?,I am making a Django application and am wanting to to make a virtual environment but it’s not working at all when I do os.environ.get(‘api_key’). I read I need to make environment variables specific to the virtual environment. I could only find examples for pipenv and tried making a .env file in my root project folder but couldn’t get it to work. Any suggestions?,Python,how to make environment variables with virtualenv i am making a   application   am wanting to to make a virtual environment but it’s not working at all when i   osenvironget‘apikey’ i   i   to make environment variables specific to the virtual environment i   only   examples for pipenv     making a env file in my root project   but  ’t get it to work any suggestions
+t3_gjvtyd,pyenv fails to switch between python versions on Mac OS · Issue #1446 · pyenv/pyenv · GitHub: for new Catalina and upgrades from Mojave. This appears to solve it.,,Python,pyenv fails to switch between python versions on mac os · issue      · pyenvpyenv · github for new catalina     from mojave this appears to solve it 
+t3_gjznhq,"As someone new to Python I can't see ELIF without reading it as ""Explain Like I'm Five""",I can't seem to shake it.  Am I the only one?,Python,as someone new to python i cant see elif without   it as explain like im five i cant seem to shake it  am i the only one
 t3_gjv4hh,"The streaming bridges — A Kafka, RabbitMQ, MQTT and CoAP example",,Python,the streaming   — a kafka rabbitmq mqtt   coap example 
 t3_gjq52p,A python program which downloads comics from readcomiconline website. Right now I have to hardcode the comic name.,,Python,a python program which   comics from   website right now i have to   the comic name 
 t3_gjy9xc,"I made a short video tutorial on how to plot NBA Shot Charts with Python! I watched FlightReacts reacting to his own Shot Charts, so I thought it would be interesting to try making Shot charts of NBA players. If you know the basics of Python, it's easy to follow along. Check it out!",,Python,i   a short   tutorial on how to plot nba shot charts with python i   flightreacts reacting to his own shot charts so i thought it   be interesting to try making shot charts of nba players if you know the basics of python its easy to follow along check it out 
@@ -4442,7 +4573,6 @@ Some notes:
 
 * I can’t do AI. I’ve tried, but I get lost every time",Python,i’m completely out of     anyone have any   for projects i can   a long time on i want to   a while on a project think months but can’t think of anything i   to make a youtube bot for   but it only took like       i can’t think of anything else worthwhile to    so   anyone have any   for a new project i can     that will take a while   some notes   i like to work with apis   i’    myself     i can’t   ai i’ve   but i get lost every time
 t3_ggu8g5,100000 Blobs vs 1 Core of CPU,,Python,       blobs vs   core of cpu 
-t3_ggu5bh,pip at the Secret Sky Festial,,Python,pip at the secret sky festial 
 t3_gh0g19,How to do simulations on a triangular/hexagonal grid?,"Just like we have numpy array for square grid, is it possible to do simulations such that it's a triangular grid
 
 o o o o o o o o o o o o
@@ -6427,26 +6557,3 @@ t3_gdxkh6,I am really confused.,"So I just started python like around a month ag
 t3_gdu7zn,What Linux OS for Python?,"I'm a python novice, but I'm checking around for the job requirements for Python jobs out of curiosity. Some job offers requires Linux proficiency .
 
 What version of Linux should I install best suited for Python coding and these requirements? I heard there's a lot different ones, but I have never fiddled with one before.",Python,what linux os for python im a python novice but im checking   for the job requirements for python jobs out of curiosity some job offers requires linux proficiency   what version of linux   i install best   for python     these requirements i   theres a lot   ones but i have never   with one before
-t3_gdtjmv,Showing ADS to other parties in my network,Do you know how ?,Python,showing   to other parties in my network   you know how 
-t3_gdthp0,Pycharm Venv Issues,"Anybody experienced anything like the below / know why this would keep happening?
-
-Using Pycharm, set up a project as usual and everything is working as intended.
-
-Open the project up one day and its telling me 'project interpereter invalid'. I attempt to fix but the venv i have created is now marked as '[invalid]' and cannot be assigned to the project.
-
-The only 'fix' seems to be to completely delete the venv and remake, which, after the 7th time is getting repetitive.
-
-
-Adding insult to injury, attempting to install all libraries for the project and pillow will not install.
-
-The 'fix' for this seems to be to repeatedly upgrade / downgrade pip until it decides to install pillow. 
-
-
-Whilst doing this i run into another issue where pycharm / venv fails to install pip when upgrading / downgrading.
-
-The 'fix' for this is delete the venv and go back to step 1.....
-
-
-Has anyone any idea wtf is going on here as its getting really boring having to do this as often as i am...",Python,pycharm venv issues     anything like the below  know why this   keep happening  using pycharm set up a project as usual   everything is working as    open the project up one     its telling me project interpereter   i attempt to fix but the venv i have   is now   as     cannot be   to the project  the only fix seems to be to completely   the venv   remake which after the  th time is getting repetitive     insult to injury attempting to install all libraries for the project   pillow will not install  the fix for this seems to be to        pip until it   to install pillow    whilst   this i run into another issue where pycharm  venv fails to install pip when       the fix for this is   the venv   go back to step     has anyone any   wtf is going on here as its getting really boring having to   this as often as i am
-t3_gdl1da,Windows 10 has “python” command that redirects to the Windows Store,,Python,     has “python”   that   to the   store 
-t3_gdt75d,How do I run interactive Python codes on macOS?,"Any recommendations for easy-to-use IDEs? Needless to say, complete noob here.",Python,how   i run interactive python   on macos any   for easytouse     to say complete noob here
