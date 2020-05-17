@@ -16,8 +16,8 @@ In this project, we will explore how well Natural Language Processing Model diff
 ### Data Source
 
 The following links are the source of the data used to classify the subreddits.
-r/depression: https://www.reddit.com/r/Python
-r/anxiety: https://www.reddit.com/r/bigdata
+r/Python: https://www.reddit.com/r/Python
+r/bigdata: https://www.reddit.com/r/bigdata
 
 ### Evaluation
 
