@@ -1,54 +1,32 @@
-# Project 3 - Reddit API Classification & Natural Language Processing
-
-
+# Project 3: Web APIs & Classification
 
 ## Problem Statement
 
-
-
-In this project, we will explore how well Natural Language Processing Model differentiate post content from two similar subreddits, and which combinations of model and classifier works best? What is the accuracy and how much of the miss-classification will occur between two different subreddit posts.
-
-
+Reddit is a collection of online discussion boards known as "subreddits", which cover a variety of topics. The goal of this project is to classify which subreddit a given post came from. As there are [over 1.5 million subreddits](http://redditmetrics.com/history) on reddit, we will be classifying posts from two subreddits, [/r/personalfinance](https://www.reddit.com/r/personalfinance/) and [/r/relationship_advice](https://www.reddit.com/r/relationship_advice/), to make the project manageable. The choice of these two subreddits is motivated by their text-heavy posts. We will be creating and comparing two models: a logistic regression and a multinomial naive Bayes classifier. Our results may be useful for any reddit user who is unsure which subreddit is the most appropriate to submit his new post, so that he can attract the most comments.
 
 ## Executive Summary
 
 ### Contents:
+- [1. Data Collection](./code/subreddit_classifier.ipynb#1.-Data-Collection)
+- [2. Data Cleaning and EDA](./code/subreddit_classifier.ipynb#2.-Data-Cleaning-and-EDA)
+- [3. Pre-processing and Modeling](./code/subreddit_classifier.ipynb#3.-Pre-processing-and-Modeling)
+- [4. Evaluation and Conceptual Understanding](./code/subreddit_classifier.ipynb#4.-Evaluation-and-Conceptual-Understanding)
+- [5. Conclusion and Recommendations](./code/subreddit_classifier.ipynb#5.-Conclusion-and-Recommendations)
 
-- [01. API Web Scraping - Python](./code/01. API Web Scraping-Python.ipynb#01.-API-Web-Scraping-&-Data-Cleaning---/r/Python)
-- [02. API Web Scraping-Bigdata](./code/02. API Web Scraping-Bigdata.ipynb#02.-API-Web-Scraping-&-Data-Cleaning---/r/bigdata)
-- [03. EDA, Preprocessing, Modeling & Conclusion](./code/03. EDA, Preprocessing, Modeling & Conclusion.ipynb#03.-EDA,-Pre-Processing,-Modeling-&-Conclusion)
+## Data Dictionary
 
+Feature|Type|Description
+---|---|---
+**name**|_object_|Unique id of a post.
+**title**|_object_|Title of a post.
+**text**|_object_|Body text of a post.
+**subreddit**|_object_|Which subreddit the post came from.
 
+## Conclusion and Recommendations
 
-### Data Source
-
-The following links are the source of the data used to classify the subreddits.
-r/depression: https://www.reddit.com/r/Python
-r/anxiety: https://www.reddit.com/r/bigdata
-
-
-
-| Model             | Classifier     | Best Params                                                  | Train score | Test Score | tn   | tp   |   fp | fn   | Accuracy | Miss-classification Rate | Precision | Specificity | Recall |
-| ----------------- | -------------- | ------------------------------------------------------------ | ----------- | ---------- | ---- | ---- | ---: | ---- | -------- | ------------------------ | --------- | ----------- | ------ |
-| TF-IDF Vectorizer | Multinomial NB | tf____max_df': 0.9, 'tf____max_features': 5000, 'tf____min_df': 3, 'tf____ngram_range': (1, 2) | 0.9258      | 0.8505     | 148  | 165  |   25 | 30   | 0.8505   | 0.1495                   | 0.8684    | 0.8555      | 0.8462 |
-
-### Evaluation
-
-Multinomial Naive Bayes with TfidrVectorizer performs slightly better with a slightly more accurate result with 85%.
-2 reasons that the posts might be incorrectly classified:
-
-1. The user might post in the subrredit topic in either one of subreddit, this will happen because both Python and Bigdata subreddit were related topics.
-2. The post is related to both topics, so the post can be classified in either subreddit.
-
-
-
-### Conclusion
-
-The Random Forest with TfidfVectorizer worked fairly well with an accuracy score of close to 85%, even though both subreddits were fairly similar in nature.
-Logistic Regression with TfidfVectorizer also works equally well as well with an accuracy score of 84%
-We can expand our scope to include the following to further improve the models:
-
-- Include lemmatization, stemming and spell checks to have a general feel of the posts
-- Include more subreddits (eg. bipolar) in our classification model. This may be further extended to be used as an initial diagnosis of any mental issues that the user might be suffering from.
-- Tuning of parameters for random forest to get a better score. However, this requires a longer amount of time to tune to get the perfect parameters.
-- Consider either boosting or bagging to get a more optimal outcome.
+- Our multinomial naive Bayes classifier performed well with a test accuracy score of 98.73%. This is within expectations because the topics of our two chosen subreddits differ significantly.
+- [Subreddit Classifier](https://subreddit-classifier.herokuapp.com/) - A proof of concept web application was developed to demonstrate potential use case. Users can submit their draft post in the application to determine which of the two subreddits should the post be submitted to.
+- Scope for future improvements:
+    - Optimize stop words and explore strategies for stemming and lemmatization
+    - Try ensemble models, such as random forest classifier
+    - Ability for model to classify more than two subreddits
